@@ -4,3 +4,10 @@
 *.db-shm
 *.db-wal
 .vs/
+
+.DS_Store
+**/bin/
+**/obj/
+*.db
+*.db-shm
+*.db-wal
