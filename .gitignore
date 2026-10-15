@@ -11,3 +11,10 @@
 *.db
 *.db-shm
 *.db-wal
+
+.DS_Store
+**/bin/
+**/obj/
+*.db
+*.db-shm
+*.db-wal
