@@ -1,7 +1,8 @@
+using AgencyQueue.Data;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
-namespace AgencyQueue.Api;
+namespace AgencyQueue.Business;
 
 public interface IBookingService
 {

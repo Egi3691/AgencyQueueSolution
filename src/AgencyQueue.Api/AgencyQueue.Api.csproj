@@ -4,4 +4,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgencyQueue.Business\AgencyQueue.Business.csproj" />
+    <ProjectReference Include="..\AgencyQueue.Data\AgencyQueue.Data.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace AgencyQueue.Api;
+namespace AgencyQueue.Data;
 
 public sealed class Appointment
 {
