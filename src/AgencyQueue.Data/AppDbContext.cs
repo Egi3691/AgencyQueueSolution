@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace AgencyQueue.Api;
+namespace AgencyQueue.Data;
 
 public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {

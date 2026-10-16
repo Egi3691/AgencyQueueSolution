@@ -1,4 +1,5 @@
-using AgencyQueue.Api;
+using AgencyQueue.Data;
+using AgencyQueue.Business;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
